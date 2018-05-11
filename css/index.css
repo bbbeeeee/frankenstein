@@ -1,0 +1,114 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.content {
+  padding: 1em;
+}
+
+@media screen and (min-width: 40em) {
+  .content {
+    padding: 5em;
+  }
+}
+
+#bg {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+nav {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 8px;
+  right: 50px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: inline-block;
+  float: right;
+  padding: 20px;
+  background: black;
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #FFF;
+  border: 4px solid black;
+  margin-bottom: -8px;
+  color: black;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+.day {
+  padding: 1em;
+  max-width: 100%;
+  float: left;
+  display: block;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+}
+
+.day .date {
+  margin: 0px;
+  width: 100%;
+}
+
+.day .title a{
+  color:
+}
+
+.day-title {
+  height: 100%;
+}
+
+.day-title h3 {
+  float: none;
+  line-height: 2em;
+}
+
+.day-title h2 {
+  float: none;
+  line-height: 0px;
+}
+
+@media screen and (min-width: 40em) {
+  .day-title h2{
+    float: left;
+    line-height: 100px;
+    line-height: 0px;
+    margin: 0;
+  }
+
+  .day-title h3 {
+    margin-left: 30px;
+    display: inline-block;
+    line-height: 4.25em;
+  }
+}
+
+.pieces .piece {
+  display: block;
+}
+
