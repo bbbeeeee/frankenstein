@@ -117,3 +117,7 @@ h2 {
 .pieces .piece {
   display: block;
 }
+
+.watch {
+  padding: 100px;
+}
